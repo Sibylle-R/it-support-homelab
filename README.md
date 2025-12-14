@@ -9,7 +9,7 @@ I started this lab befor I began my HF Informatik studies.
 I noticed that many concepts only really make sense once you set them up yourself,
 break things, and fix them again.
 
-This lab is mainly focused on:
+This lab is focused on:
 - basic Windows Server setup
 - Active Directory fundamentals
 - typical first level support scenarios
@@ -25,21 +25,24 @@ This lab is mainly focused on:
 ## Project 1: Active Directory – Base Setup
 
 ### Objective
-Set up a small Windows domain to get a better feeling for how Active Directory
-is actually used.
+Set up a small Windows domain to understand and get a better feeling for how it is actually used.
 
-### What I implemented 
+### What I implemented so far
 - Created a Hyper-V virtual machine (DC01)
 - Installed Windows Server 2022
 - Set up an internal Hyper-V network
 - Basic server preparation before installing Active Directory
 
+### Verification after Domain Promotion
 
-### Relevance for IT Support
-Active Directory plays a big role in daily IT support.
-Many common issues like login problems, password resets or missing access
-are directly related to the domain controller.
+After the reboot, I verified that the server was successfully promoted to a Domain Controller:
 
+- Server name is set to DC01
+- Active Directory Users and Computers console is available
+- DNS Server role is installed and running
+- Domain services are active and accessible
+
+This confirmed that the domain controller is working as expected.
 
 ## What I learned so far
 - How important basic networking is for Active Directory
@@ -52,7 +55,7 @@ are directly related to the domain controller.
 - [x] Windows Server 2022 installed
 - [x] Server renamed to DC01
 - [x] Static IP and DNS configured
-- [ ] Active Directory Domain Services installed
+- [x] Active Directory Domain Services installed
 - [ ] Domain created
 - [ ] Client joined to domain
 - [ ] User and group management
