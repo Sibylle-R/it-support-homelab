@@ -71,6 +71,20 @@ I managed to log in with Max Muster as a User in to Windows 11 client using doma
 This verified correct DNS resolution and authentication against the domain controller.
 
 
+### Group Policy troubleshooting
+
+Initially, the policy did not apply because it was linked to a computer OU
+while configuring a user-based policy. After moving the domain user into
+a dedicated user OU and linking the GPO correctly, the policy applied as expected.
+
+
+### Group Policy test (User restrictions)
+
+After logging in with a domain user on the Windows 11 client, access to the
+Control Panel was successfully blocked, confirming that the policy was applied
+correctly.
+
+
 ## What I learned
 
 
