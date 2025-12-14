@@ -50,13 +50,18 @@ Created a test domain user in ADUC to simulate common IT support tasks (account 
 ### Group management
 
 Created a security group (IT-Support) and added the test user to it.
-This is how permissions are usually managed in Active Directory
-using groups instead of individual user accounts.
 
-## What I learned so far
-- How important basic networking is for Active Directory
-- Why many support issues are actually user or permission related
-- How a Domain Controller fits into a small company IT setup
+## Client setup Windows 11
+
+A Windows 11 client virtual machine (CLIENT01) is currently being installed.
+This client will later be joined to the domain to test typical domain login
+and user management scenarios.
+
+Notes:
+The client setup took a bit longer due to TPM requirements in Hyper-V
+
+## What I learned
+
 
 ## Current Progress
 
@@ -66,7 +71,7 @@ using groups instead of individual user accounts.
 - [x] Static IP and DNS configured
 - [x] Active Directory Domain Services installed
 - [x] Domain created
-- [x] Client joined to domain
+- [] Client joined to domain
 - [x] User and group management
 
 This lab is still work in progress and will be extended step by step.
