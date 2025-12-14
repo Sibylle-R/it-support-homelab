@@ -61,6 +61,11 @@ Notes:
 The client setup took a bit longer due to TPM requirements in Hyper-V and also since Windows 11 wants you to connect isntantly to the internet
 I had to use a small workaround. OOBE\BYPASSNRO 
 
+### Client domain join
+
+A Windows 11 client (CLIENT01) was configured with the domain controller as DNS server and successfully joined to the lab.local domain.
+
+
 ## What I learned
 
 
@@ -72,7 +77,7 @@ I had to use a small workaround. OOBE\BYPASSNRO
 - [x] Static IP and DNS configured
 - [x] Active Directory Domain Services installed
 - [x] Domain created
-- [] Client joined to domain
+- [x] Client joined to domain
 - [x] User and group management
 
 This lab is still work in progress and will be extended step by step.
