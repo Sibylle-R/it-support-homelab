@@ -47,6 +47,12 @@ This confirmed that the domain controller is working as expected.
 ### User creation
 Created a test domain user in ADUC to simulate common IT support tasks (account setup, password resets, group membership).
 
+### Group management
+
+Created a security group (IT-Support) and added the test user to it.
+This is how permissions are usually managed in Active Directory
+using groups instead of individual user accounts.
+
 ## What I learned so far
 - How important basic networking is for Active Directory
 - Why many support issues are actually user or permission related
@@ -59,8 +65,8 @@ Created a test domain user in ADUC to simulate common IT support tasks (account 
 - [x] Server renamed to DC01
 - [x] Static IP and DNS configured
 - [x] Active Directory Domain Services installed
-- [ ] Domain created
-- [ ] Client joined to domain
-- [ ] User and group management
+- [x] Domain created
+- [x] Client joined to domain
+- [x] User and group management
 
 This lab is still work in progress and will be extended step by step.
