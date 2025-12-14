@@ -1,18 +1,18 @@
 # IT Support Homelab
 
-This repository documents my personal homelab projects with a clear focus
-on entry-level IT Support and Service Desk tasks.
+This repo contains my personal homelab setup.
 
-I built this lab alongside starting my HF Informatik studies to better
-understand how day-to-day IT support actually works in real companies,
-not just in theory.
+I use it to practice basic IT support and Active Directory tasks.
+Nothing groundbreaking, just a small lab to understand how things actually work.
 
+I started this lab befor I began my HF Informatik studies.
+I noticed that many concepts only really make sense once you set them up yourself,
+break things, and fix them again.
 
-## Why this homelab
-Instead of only learning concepts, I wanted to work hands-on with a
-realistic Windows environment. My goal is to become comfortable with
-typical 1st level support tasks such as user issues, authentication
-problems and basic troubleshooting.
+This lab is mainly focused on:
+- basic Windows Server setup
+- Active Directory fundamentals
+- typical first level support scenarios
 
 ## Environment
 - Host OS: Windows 11 Pro  
@@ -25,31 +25,26 @@ problems and basic troubleshooting.
 ## Project 1: Active Directory – Base Setup
 
 ### Objective
-Set up a basic Windows domain to understand how Active Directory is used
-in everyday IT support scenarios.
+Set up a small Windows domain to get a better feeling for how Active Directory
+is actually used.
 
-### What I implemented
+### What I implemented 
 - Created a Hyper-V virtual machine (DC01)
 - Installed Windows Server 2022
-- Configured an internal virtual network
-- Prepared the server to act as a Domain Controller
+- Set up an internal Hyper-V network
+- Basic server preparation before installing Active Directory
 
-### Notes from the setup
-During the initial setup I first used the default Hyper-V switch, but
-quickly noticed that it does not reflect a typical company setup.
-Switching to an internal network helped me better understand how clients
-and servers communicate in a domain environment.
 
 ### Relevance for IT Support
-Active Directory is central to most 1st level support tasks. User login
-issues, password resets and access problems all depend on a correctly
-configured domain controller.
+Active Directory plays a big role in daily IT support.
+Many common issues like login problems, password resets or missing access
+are directly related to the domain controller.
 
 
 ## What I learned so far
-- How important networking is for Active Directory
-- Why many support issues are related to user accounts and permissions
-- How a Domain Controller fits into a simple company IT setup
+- How important basic networking is for Active Directory
+- Why many support issues are actually user or permission related
+- How a Domain Controller fits into a small company IT setup
 
 ## Current Progress
 
@@ -62,9 +57,4 @@ configured domain controller.
 - [ ] Client joined to domain
 - [ ] User and group management
 
-
-## Current status
-- [x] Windows Server installed
-- [ ] Active Directory configured
-- [ ] Client joined to domain
-- [ ] User and group management
+This lab is still work in progress and will be extended step by step.
