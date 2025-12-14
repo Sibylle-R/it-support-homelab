@@ -51,6 +51,17 @@ configured domain controller.
 - Why many support issues are related to user accounts and permissions
 - How a Domain Controller fits into a simple company IT setup
 
+## Current Progress
+
+- [x] Hyper-V virtual machine created (DC01)
+- [x] Windows Server 2022 installed
+- [x] Server renamed to DC01
+- [x] Static IP and DNS configured
+- [ ] Active Directory Domain Services installed
+- [ ] Domain created
+- [ ] Client joined to domain
+- [ ] User and group management
+
 
 ## Current status
 - [x] Windows Server installed
