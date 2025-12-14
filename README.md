@@ -65,6 +65,11 @@ I had to use a small workaround. OOBE\BYPASSNRO
 
 A Windows 11 client (CLIENT01) was configured with the domain controller as DNS server and successfully joined to the lab.local domain.
 
+### Domain login test
+
+I managed to log in with Max Muster as a User in to Windows 11 client using domain credentials.
+This verified correct DNS resolution and authentication against the domain controller.
+
 
 ## What I learned
 
