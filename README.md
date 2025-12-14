@@ -44,6 +44,9 @@ After the reboot, I verified that the server was successfully promoted to a Doma
 
 This confirmed that the domain controller is working as expected.
 
+### User creation
+Created a test domain user in ADUC to simulate common IT support tasks (account setup, password resets, group membership).
+
 ## What I learned so far
 - How important basic networking is for Active Directory
 - Why many support issues are actually user or permission related
