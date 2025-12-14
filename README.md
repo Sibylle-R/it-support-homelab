@@ -58,7 +58,8 @@ This client will later be joined to the domain to test typical domain login
 and user management scenarios.
 
 Notes:
-The client setup took a bit longer due to TPM requirements in Hyper-V
+The client setup took a bit longer due to TPM requirements in Hyper-V and also since Windows 11 wants you to connect isntantly to the internet
+I had to use a small workaround. OOBE\BYPASSNRO 
 
 ## What I learned
 
